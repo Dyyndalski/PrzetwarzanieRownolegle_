@@ -49,7 +49,7 @@ function tableCreateStatistic(data1, max1, min1 , max2, min2) {
 
     tbl.style.border = '1px solid black';
   
-    let names = ["Liczba wątków: n", "Sekwencyjne: T_s(n)", "Równoległe: T_s(n)"];
+    let names = ["Liczba wątków: n", "Równoległe: T_s(n)", "Sekwencyjne: T_s(n)"];
     for (let i = 0; i <= data1[0].length; i++) {
         tr = tbl.insertRow();
         for (let j = 0; j < 5; j++) {
