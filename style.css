@@ -1,0 +1,43 @@
+body{
+    height: 150vw;
+}
+
+#output{
+    position: relative;
+}
+
+.container{
+    width: 600px;
+    height: 140px;
+
+}
+
+#button{
+    width: 100vw;
+    height: 20px;
+    align-items: center;
+    position: relative;
+}
+
+textarea{
+    width: 50vw;
+    height: 6vw;
+}
+
+input{
+    width: 50px;
+    margin: 10px;
+}
+
+h3{
+    font-size: 12px;
+}
+
+td, tr, th{
+    padding: 5px;
+    
+}
+
+table{
+    margin-top: 20px;
+}
