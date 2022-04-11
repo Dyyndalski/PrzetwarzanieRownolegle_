@@ -45,7 +45,7 @@ function tableCreateStatistic(data1, max1, min1 , max2, min2) {
     let tr = tbl.insertRow();
     let td = tr.insertCell();
     td.setAttribute('colSpan', '4');
-    td.appendChild(document.createTextNode("Tabela przedstawiająca średni czas generowania permutacji oraz obliczonego parametru wydajnościowego."));
+    td.appendChild(document.createTextNode("Tabela przedstawiająca minimalne i maksymalne czasy otrzymane przy 10 wywołaniach programu:"));
 
     tbl.style.border = '1px solid black';
   
@@ -109,7 +109,7 @@ function tableCreateResult(data1, data2) {
     const tr = tbl.insertRow();
     const td = tr.insertCell();
     td.setAttribute('colSpan', '5');
-    td.appendChild(document.createTextNode("Tabela przedstawiająca średni czas generowania permutacji oraz obliczonego parametru wydajnościowego."));
+    td.appendChild(document.createTextNode("Tabela przedstawiająca średni czas (z 10 prób) generowania permutacji oraz obliczonego parametru wydajnościowego."));
     for (let i = 0; i <= data1[0].length; i++) {
       const tr = tbl.insertRow();
       for (let j = 0; j < 4; j++) {
